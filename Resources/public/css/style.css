@@ -1,0 +1,7 @@
+body {
+    background: #b0c4de;
+}
+
+.current {
+    border: 1px solid red;
+}

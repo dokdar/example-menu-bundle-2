@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+
+    <option>
+        <title>O firmie</title>
+        <contents>Lorem ipsum...</contents>
+    </option>
+
+    <option>
+        <title>Oferta</title>
+        <contents>Dolor sit amet...</contents>
+    </option>
+
+    <option>
+        <title>Kontakt</title>
+        <contents>Foo bar...</contents>
+    </option>
+
+</options>

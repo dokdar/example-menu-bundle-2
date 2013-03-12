@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="stylesheet" href="{{ asset('bundles/gajdawexamplemenu/css/style.css') }}">
+    </head>
+    <body>
+        <a href="{{ path('menu') }}">admin</a>
+        {{ knp_menu_render('GajdawExampleMenuBundle:Builder:mainMenu') }}
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
